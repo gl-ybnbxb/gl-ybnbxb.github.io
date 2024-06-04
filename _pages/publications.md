@@ -7,6 +7,7 @@ author_profile: true
 
 <!-- ### Publications -->
 
+- **Lin Gui**, Cristina Garbacea, Victor Veitch (2024). BoNBoN Alignment for Large Language Models and the Sweetness of Best-of-n Sampling. [[Preprint](https://arxiv.org/abs/2406.00832)]
 - **Lin Gui**, Yuchao Jiang, Jingshu Wang (2023). Aggregating Dependent Signals with Heavy-Tailed Combination Tests. [[Preprint](https://arxiv.org/abs/2310.20460)]
 - Zihao Wang, **Lin Gui**, Jeffrey Negrea, Victor Veitch (2023). Concept Algebra for (Score-Based) Text-Controlled
 Generative Models. *NeurIPS 2023*. [[Preprint](https://arxiv.org/abs/2302.03693)][[Paper](https://openreview.net/forum?id=SGlrCuwdsB)]
