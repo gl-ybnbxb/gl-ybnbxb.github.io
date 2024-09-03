@@ -10,7 +10,7 @@ redirect_from:
 
 About me
 ====
-I am a fourth-year Ph.D. student in the [Department of Statistics at the University of Chicago](https://stat.uchicago.edu/).
+I am a fifth-year Ph.D. student in the [Department of Statistics at the University of Chicago](https://stat.uchicago.edu/).
 
 I'm broadly interested in statistics and machine learning. In particular, I currently focus on alignment for language models, multiple testing, and causal inference. I'm currently working with Professor [Jingshu Wang](https://jingshuw.org/) on statistical inference problems and Professor [Victor Veitch](http://victorveitch.com/) on large language models fine tuning for alignment.
  
