@@ -182,11 +182,11 @@
     display: block;
     margin: 0 1rem;
     padding: 0.5rem 0;
-    color: $masthead-link-color;
+    color: white;
     text-decoration: none;
 
     &:hover {
-      color: $masthead-link-color-hover;
+      color: #f0f0f0;
     }
   }
 
@@ -198,7 +198,7 @@
     border: 0;
     outline: none;
     background-color: transparent;
-    color: #fff;
+    color: white;
     cursor: pointer;
   }
 
@@ -324,7 +324,7 @@
   a {
     display: block;
     padding: 0.125em 0;
-    color: inherit;
+    color: white;
 
     &:hover {
       text-decoration: underline;
@@ -335,7 +335,7 @@
     margin-left: -0.5em;
     padding-left: 0.5em;
     padding-right: 0.5em;
-    color: #fff;
+    color: white;
     font-weight: bold;
     background: transparent;
     border-radius: $border-radius;
@@ -372,7 +372,7 @@
 
 .toc {
   font-family: $sans-serif-narrow;
-  color: $gray;
+  color: white;
   text-transform: uppercase;
   letter-spacing: 1px;
   background-color: transparent;
@@ -381,7 +381,7 @@
   box-shadow: $box-shadow;
 
   .nav__title {
-    color: #fff;
+    color: white;
     font-size: $type-size-6;
     background: transparent;
     border-top-left-radius: $border-radius;
@@ -399,7 +399,7 @@
   a {
     display: block;
     padding: 0.5rem 1rem;
-    color: $gray;
+    color: white;
     font-size: $type-size-7;
     font-weight: bold;
     line-height: 1.5;
