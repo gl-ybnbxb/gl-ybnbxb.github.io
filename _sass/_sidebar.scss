@@ -147,9 +147,6 @@
       margin-bottom: 0;
     }
   }
-   a i{
-      color: white;
-   }
 
   @include breakpoint($large) {
     display: block;
@@ -177,6 +174,11 @@
   z-index: -1;
   box-shadow: 0 0 10px rgba(#000, 0.25);
   cursor: default;
+  color: white;
+  i, svg {
+     fill: white;
+     color: white;
+   }
 
   @include breakpoint($large) {
     display: block;
