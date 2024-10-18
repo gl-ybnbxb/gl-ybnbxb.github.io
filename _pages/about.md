@@ -10,12 +10,19 @@ redirect_from:
 
 <style>
 body {
-  background-image: url('/images/white_sand.jpg');  /* Adjust the path */
+  background-image: url('/images/star.jpg');  /* Adjust the path */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
   margin: 0;
+}
+h1 {
+  color: #FFFFFF;
+}
+
+p {
+  color: #FFFFFF; 
 }
 </style>
 
