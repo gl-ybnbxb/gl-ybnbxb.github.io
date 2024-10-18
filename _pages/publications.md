@@ -17,13 +17,10 @@ body {
 h1 {
   color: #FFFFFF;
 }
-
 p {
   color: #FFFFFF; 
 }
 </style>
-
-<!-- ### Publications -->
 
 - **Lin Gui**, Cristina Garbacea, Victor Veitch (2024). BoNBoN Alignment for Large Language Models and the Sweetness of Best-of-n Sampling. *NeurIPS 2024*. [[Preprint](https://arxiv.org/abs/2406.00832)]
 - **Lin Gui**, Yuchao Jiang, Jingshu Wang (2023). Aggregating Dependent Signals with Heavy-Tailed Combination Tests. [[Preprint](https://arxiv.org/abs/2310.20460)]
