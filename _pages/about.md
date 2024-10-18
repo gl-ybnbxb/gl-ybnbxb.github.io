@@ -8,6 +8,17 @@ redirect_from:
   - /about.html
 ---
 
+<style>
+body {
+  background-image: url('/images/white_sand.jpg');  /* Adjust the path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+}
+</style>
+
 About me
 ====
 I am a fifth-year Ph.D. student in the [Department of Statistics at the University of Chicago](https://stat.uchicago.edu/).
