@@ -2,10 +2,6 @@
    SINGLE PAGE/POST
    ========================================================================== */
 
-$global-font-family: 'Zilla Slab', serif;
-$sans-serif: 'Zilla Slab', sans-serif;
-$caption-font-family: 'Zilla Slab', serif;
-
 #main {
   @include container;
   @include clearfix;
