@@ -140,6 +140,10 @@
   z-index: 10;
   position: relative;
   cursor: pointer;
+  i, svg {
+     fill: white;
+     color: white;
+   }
 
   li:last-child {
     a {
