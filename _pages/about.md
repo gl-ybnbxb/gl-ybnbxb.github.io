@@ -17,13 +17,13 @@ body {
   height: 100vh;
   margin: 0;
 }
-h1 {
+/* h1 {
   color: #FFFFFF;
 }
 
 p {
   color: #FFFFFF; 
-}
+} */
 </style>
 
 About me
