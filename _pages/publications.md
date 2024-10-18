@@ -14,12 +14,6 @@ body {
   height: 100vh;
   margin: 0;
 }
-/* h1 {
-  color: #FFFFFF;
-}
-p {
-  color: #FFFFFF; 
-} */
 </style>
 
 - **Lin Gui**, Cristina Garbacea, Victor Veitch (2024). BoNBoN Alignment for Large Language Models and the Sweetness of Best-of-n Sampling. *NeurIPS 2024*. [[Preprint](https://arxiv.org/abs/2406.00832)]
