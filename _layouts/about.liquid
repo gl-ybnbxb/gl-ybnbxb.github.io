@@ -19,10 +19,10 @@ layout: default
       <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
         <img id="random-profile-image" class="img-fluid z-depth-1" alt="Profile Image">
 
-        <!-- Social -->
+        <!-- Social Icons below the profile image -->
         {% if page.social %}
-          <div class="social mt-3">
-            <div class="contact-icons small-icons">{% include social.liquid %}</div>
+          <div class="social mt-2 d-flex align-items-center justify-content-center">
+            <div class="contact-icons small-icons d-inline-flex">{% include social.liquid %}</div>
           </div>
         {% endif %}
 
