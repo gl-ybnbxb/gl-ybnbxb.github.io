@@ -9,7 +9,6 @@ RUN apt-get update -y && apt-get install -y --no-install-recommends \
     build-essential \
     zlib1g-dev \
     python3-pip \
-    nodejs \
     inotify-tools procps && \
     apt-get clean && rm -rf /var/lib/apt/lists/* /var/cache/apt/archives/* && \
     pip install nbconvert --break-system-packages
