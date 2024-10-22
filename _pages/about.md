@@ -13,8 +13,8 @@ profile:
 
 
 news: false # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: true # includes social icons at the bottom of the page
 ---
 
 I am a fifth-year Ph.D. student in the [Department of Statistics at the University of Chicago](https://stat.uchicago.edu/).
