@@ -17,21 +17,7 @@ layout: default
   <article>
     {% if page.profile %}
       <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-          {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
-          {% endif %}
-          {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
-        {% endif %}
+        <img id="random-profile-image" class="img-fluid z-depth-1" alt="Profile Image">
 
         <!-- Social -->
         {% if page.social %}
@@ -77,3 +63,44 @@ layout: default
     {% endif %}
   </article>
 </div>
+
+<!-- JavaScript for Random Image Selection -->
+<script>
+  // List of profile image paths
+  const profileImages = [
+    'assets/img/profile1.jpg',
+    'assets/img/profile2.jpg',
+    'assets/img/profile3.jpg',
+    'assets/img/profile4.JPG',
+    'assets/img/profile5.jpg',
+    'assets/img/profile6.jpg'
+  ];
+
+  // Select a random image
+  const randomImage = profileImages[Math.floor(Math.random() * profileImages.length)];
+
+  // Determine if the image should be circular
+  const isCircular = {{ page.profile.image_circular | json }};  // Pass boolean from Liquid to JS
+
+  // Set the image source
+  const imageElement = document.getElementById('random-profile-image');
+  imageElement.src = randomImage;
+
+  // Apply circular or non-circular class
+  if (isCircular) {
+    imageElement.classList.add('rounded-circle');
+  } else {
+    imageElement.classList.add('rounded');
+  }
+</script>
+
+<!-- CSS to Style the Profile Image -->
+<style>
+  .profile img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+  }
+</style>
