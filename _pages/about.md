@@ -2,6 +2,7 @@
 layout: about
 title: About
 permalink: /
+subtitle: <a href='#'>How to pronounce</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
