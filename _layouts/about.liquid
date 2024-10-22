@@ -94,13 +94,30 @@ layout: default
   }
 </script>
 
-<!-- CSS to Style the Profile Image -->
+<!-- CSS for Profile Image and Social Icons -->
 <style>
   .profile img {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
     margin: 0 auto;
     display: block;
+  }
+
+  /* Make social icons smaller and aligned in one row */
+  .social .contact-icons i {
+    font-size: 1rem; /* Adjust icon size */
+    margin: 0 8px;   /* Add some spacing between icons */
+  }
+
+  /* Ensure icons stay inline and centered */
+  .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .small-icons {
+    display: inline-flex;
   }
 </style>
