@@ -1,6 +1,7 @@
 /*******************************************************************************
  * Styles for the base elements of the theme.
  ******************************************************************************/
+ @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
 
 // Typography
 
@@ -17,6 +18,7 @@ li,
 span,
 strong {
   color: var(--global-text-color);
+  font-family: 'Work Sans', sans-serif;
 }
 
 hr {
@@ -245,14 +247,14 @@ ul.task-list input[type="checkbox"] {
 
 .navbar {
   box-shadow: none;
-  border-bottom: 1px solid var(--global-divider-color);
+  border-bottom: 1px solid var(--nav-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
 }
 
 .navbar .dropdown-menu {
   background-color: var(--global-bg-color);
-  border: 1px solid var(--global-divider-color);
+  border: 1px solid var(--nav-divider-color);
 
   a:not(.active) {
     color: var(--global-text-color);
