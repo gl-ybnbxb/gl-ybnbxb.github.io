@@ -13,7 +13,7 @@ $light-blue-color: #8fb4c7 !default;
 $blue-color: #7aa1be !default;
 $blue-color-dark: #137dcb !default;
 $very-dark-blue: #2a2f33 !default;
-$cyan-color: #2698ba !default;
+$cyan-color: #41bbc8 !default;
 $light-cyan-color: color.adjust($cyan-color, $lightness: 25%);
 $green-color: #00ab37 !default;
 $green-color-lime: #b7d12a !default;
@@ -25,6 +25,8 @@ $light-purple-color: color.adjust($purple-color, $lightness: 25%);
 $pink-color: #f1bbc9 !default;
 $pink-color-light: #ffdddd !default;
 $yellow-color: #efcc00 !default;
+$brown-color: #77431e !default;
+$off-white-color: #fcf9e8 !default;
 
 $grey-color: #828282 !default;
 $grey-color-light: color.adjust($grey-color, $lightness: 40%);
