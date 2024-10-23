@@ -76,12 +76,12 @@
 }
 
 html[data-theme="dark"] {
-  --global-bg-color: #{$red-color-dark};
+  --global-bg-color: #{$grey-blue-color};
   --global-code-bg-color: #{$code-bg-color-dark};
   --global-text-color: #{$grey-yellow-color};
   --global-text-color-light: #{$grey-yellow-color};
-  --global-theme-color: #{$grey-blue-color};
-  --global-hover-color: #{$grey-blue-color};
+  --global-theme-color: #{$red-color-dark};
+  --global-hover-color: #{$red-color-dark};
   --global-hover-text-color: #{$grey-yellow-color};
   --global-footer-bg-color: #{$grey-color-light};
   --global-footer-text-color: #{$grey-color-dark};
