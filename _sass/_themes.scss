@@ -5,12 +5,12 @@
 @use "sass:color";
 
 :root {
-  --global-bg-color: #{$pink-color};
+  --global-bg-color: #{$purple-light-theme};
   --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$blue-color-dark};
-  --global-text-color-light: #{$blue-color-dark};
-  --global-theme-color: #{$yellow-color};
-  --global-hover-color: #{$yellow-color};
+  --global-text-color: #{$purple-text-dark-light-theme};
+  --global-text-color-light: #{$purple-text-light-light-theme};
+  --global-theme-color: #{$yellow-hightlight-light-theme};
+  --global-hover-color: #{$orange-hightlight-light-theme};
   --global-hover-text-color: #{$white-color};
   --global-footer-bg-color: #{$grey-color-dark};
   --global-footer-text-color: #{$grey-color-light};
