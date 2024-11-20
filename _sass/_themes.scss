@@ -16,7 +16,7 @@
   --global-footer-text-color: #{$grey-color-light};
   --global-footer-link-color: #{$white-color};
   --global-distill-app-color: #{$grey-color};
-  --global-divider-color: #{$yellow-color};
+  --global-divider-color: #{$orange-hightlight-light-theme};
   --nav-divider-color: #{$off-white-color};
   --global-card-bg-color: #{$white-color};
   --global-highlight-color: #{$very-dark-blue};
@@ -76,12 +76,12 @@
 }
 
 html[data-theme="dark"] {
-  --global-bg-color: #{$blue-color-dark-theme};
+  --global-bg-color: #{$purple-text-dark-light-theme};
   --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$yellow-color-light};
-  --global-text-color-light: #{$yellow-color-light};
-  --global-theme-color: #{$pink-color-dark-theme};
-  --global-hover-color: #{$pink-color-dark-theme};
+  --global-text-color: #{$yellow-text-dark-theme};
+  --global-text-color-light: #{$yellow-color};
+  --global-theme-color: #{$orange-hightlight-light-theme};
+  --global-hover-color: #{$orange-hightlight-light-themee};
   --global-hover-text-color: #{$yellow-color-light};
   --global-footer-bg-color: #{$grey-color-light};
   --global-footer-text-color: #{$grey-color-dark};
