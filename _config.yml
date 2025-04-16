@@ -126,7 +126,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Some random thoughts
+blog_name: Hello world!
 blog_description:
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
@@ -166,6 +166,8 @@ external_sources:
     posts:
       - url: https://mewing-mule-992.notion.site/Best-of-N-Sampling-with-Mis-specified-Dense-Reward-Models-1d5f835a1319808caf21d4707d6c1f34?pvs=4
         published_date: 2025-04-16
+        title: "Best of N Sampling with Mis-specified Dense Reward Models"
+        description: "This post explores the properties of Best-of-N sampling under mis-specified reward models."
 
 # -----------------------------------------------------------------------------
 # Newsletter
