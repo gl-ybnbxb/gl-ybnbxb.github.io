@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>How to pronounce</a>
+subtitle: <a href='https://www.howtopronounce.com/chinese/%E6%A1%82%E6%9E%97/24996575'>How to pronounce in Chinese?</a>
 
 profile:
   align: right
