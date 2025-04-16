@@ -127,7 +127,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: gl-ybnbxb # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_description: Hello world!
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -162,12 +162,10 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
+  - name: Notion Blog
     posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
+      - url: https://mewing-mule-992.notion.site/Best-of-N-Sampling-with-Mis-specified-Dense-Reward-Models-1d5f835a1319808caf21d4707d6c1f34?pvs=4
+        published_date: 2025-04-16
 
 # -----------------------------------------------------------------------------
 # Newsletter
