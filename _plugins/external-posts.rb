@@ -74,6 +74,8 @@ module ExternalPosts
       src['posts'].each do |post|
         puts "...fetching #{post['url']}"
         content = fetch_content_from_url(post['url'])
+        content[:title] = post['title'] if post['title']
+        content[:summary] = post['description'] if post['description']
         content[:published] = parse_published_date(post['published_date'])
         create_document(site, src['name'], post['url'], content)
       end
