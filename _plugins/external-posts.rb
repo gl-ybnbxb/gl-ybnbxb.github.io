@@ -52,11 +52,6 @@ module ExternalPosts
         slug = "#{source_name.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')}-#{url.split('/').last}" if slug.empty?
       end
 
-      # if url.include?("1d5f835a1319808caf21d4707d6c1f34")
-      #   content[:title] = "Best-of-N-Sampling-with-Mis-specified-Dense-Reward-Models"
-      #   content[:summary] = "This post discusses the effect of mis-specified reward models on Best-of-N sampling."
-      # end
-
       path = site.in_source_dir("_posts/#{slug}.md")
       doc = Jekyll::Document.new(
         path, { :site => site, :collection => site.collections['posts'] }
