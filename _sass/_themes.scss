@@ -76,18 +76,18 @@
 }
 
 html[data-theme="dark"] {
-  --global-bg-color: #{$purple-text-dark-light-theme};
+  --global-bg-color: #{$dark-theme-bg-color};
   --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$yellow-text-dark-theme};
-  --global-text-color-light: #{$yellow-color};
-  --global-theme-color: #{$orange-hightlight-light-theme};
-  --global-hover-color: #{$orange-hightlight-light-theme};
-  --global-hover-text-color: #{$yellow-color-light};
+  --global-text-color: #{$dark-theme-text-color};
+  --global-text-color-light: #{$off-white-color};
+  --global-theme-color: #{$dark-theme-theme-color};
+  --global-hover-color: #{$dark-theme-theme-color};
+  --global-hover-text-color: #{$dark-theme-text-color};
   --global-footer-bg-color: #{$grey-color-light};
   --global-footer-text-color: #{$grey-color-dark};
   --global-footer-link-color: #{$black-color};
   --global-distill-app-color: #{$grey-color-light};
-  --global-divider-color: #{$off-white-color};
+  --global-divider-color: #{$dark-theme-divider-color};
   --global-card-bg-color: #{$grey-900};
   --global-back-to-top-bg-color: rgba(
     #{color.channel($white-color, "red", $space: rgb)},
